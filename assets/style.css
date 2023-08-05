@@ -39,6 +39,7 @@
   display: flex;
   gap: 2rem;
   justify-content: space-between;
+  margin-right: 1rem;
 }
 
 .navbar li {
@@ -333,5 +334,11 @@
 
   .hamburger-menu:has(input:checked) + body {
     opacity: rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .hamburger {
+    display: none;
   }
 }
